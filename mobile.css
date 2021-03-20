@@ -27,10 +27,8 @@
         border-radius: 10px;
         position: sticky;
         top: 0;
-    }
-    
-    
-    
+        width: 500px;
+    }    
     a {
         text-decoration: none;
         
@@ -69,6 +67,7 @@
         background-image: url(Images/wp4470729.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        width: 500px;
     }
     
     #about h2 {
@@ -136,8 +135,25 @@
         background-image: url(Images/wp4470729.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        width: 500px;
     }
-    
+    #projects {
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: auto;   
+        margin: 2rem; 
+        justify-content: space-between;   
+        align-items: center;
+        height: auto; 
+    }
+    #myprojects img {
+        height: 100px;
+        width: 100px;
+        padding: 1rem;
+        transition-duration: 500ms;
+    }
     #myprojects h2 {
         text-align: center;
         padding-top: 40px;
@@ -161,6 +177,7 @@
         background-image: url(Images/wp4470729.jpg);
         background-size: cover;
         background-repeat: no-repeat;
+        width: 500px;
     }
     
     #contact h3 {

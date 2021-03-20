@@ -3,19 +3,11 @@
     margin: 0px;
     padding: 0px;
 }
-
-
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(255, 255, 255);
-    
+    background-color: aqua;    
 }
-   
  /* Nav bar */
-i {
-    font-size: 26px;
-    color: rgb(241, 241, 250);
-}
 
 #navbar {
     display: flex;    
@@ -30,7 +22,6 @@ i {
     width: 6rem;
     height: 4rem;
     margin-left: 2rem;
-    /* background-color: aliceblue; */
 }
 a {
     text-decoration: none;    
@@ -52,7 +43,7 @@ a {
 #navbar ul li a {
     display: block;
     margin: 6px;
-    color: aliceblue;
+    color: rgb(228, 15, 15);
     transition-duration: 500ms;
 }
 
@@ -79,7 +70,7 @@ a {
     background-repeat: no-repeat;
     /* opacity: 100%; */
     margin: auto;
-    
+    margin-top: 5px;
 }
 #about, a {
     text-decoration: none;
@@ -91,11 +82,12 @@ a {
     color: rgb(255, 255, 255);
     /* background-color: rgb(255, 255, 255); */
     text-align: center;
-    background-color: rgb(233, 217, 217);
+    background-color: rgb(77, 76, 76);
     padding: 1rem;
     border-radius: 5px;
     opacity: 100%;
 }
+
 .information, h3 {
     font-size: 1.6rem;
 }
@@ -155,16 +147,28 @@ a {
 /* my projects */
 
 #myprojects {
-    height: 600px;
-    margin-top: 3px;
-    background-color: rgb(175, 226, 123);
-    border-radius: 10px;
+    height: 120vh;   
+    border-radius: 4px;
+    margin: auto;
     background-image: url(Images/wp4470729.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;    
+    width: 1340px;
+    margin-top: 5px;
 }
-
+#projects {
+    display: flex;
+    width: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;   
+    margin: 2rem; 
+    justify-content: space-evenly;    
+}
+#projects h3 {
+    text-align: center;
+    color: aliceblue;
+}
 #myprojects h2 {
     text-align: center;
     padding-top: 40px;
@@ -172,15 +176,25 @@ a {
     animation: heading;
     animation-duration: 2s;
     opacity: 92%;
+    font-size: 2rem;
 }
 
+
+#myprojects img {
+    height: 280px;
+    width: 360px;
+    padding: 1rem;
+    transition-duration: 500ms;
+}
+#myprojects img:hover {
+    padding: 0.6rem;
+}
 /* contact */
 
 
 #contact {
     display: flex;
-    height: 100vh;
-    margin-top: 1px;
+    height: 100vh;    
     flex-direction: column;
     align-items: center;
     background-color: rgb(175, 226, 123);
@@ -189,7 +203,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     margin: auto;
-  
+    margin-top: 5px;
 }
 
 #contact h3 {
@@ -217,10 +231,12 @@ a {
 
 input, #msg {
     border-radius: 5px;
-    width: 100%;
-    padding: 6px 14px;
+    width: 100%; 
     margin-top: 8px;
     background-color: rgb(231, 231, 87);
+    padding: 0.4rem 8rem;
+    resize: none;
+   
 }
 
 label {
@@ -229,8 +245,7 @@ label {
     padding-left: 8px;
     text-decoration: overline;
     color: rgb(249, 255, 218);
-    font-size: 18px;
-  
+    font-size: 18px;  
 }
 
 .submit {
@@ -242,11 +257,12 @@ label {
 }
 
 button {
-    padding: 8px;
-   
+    padding: 0.4rem 2rem;   
     border-radius: 5px;
     background-color: rgb(50, 103, 218);
-    color: rgb(233, 157, 17);
+    color: rgb(255, 253, 248);
+    transition-duration: 400ms;
+    font-size: 1rem;
 }
 
 button:hover {
