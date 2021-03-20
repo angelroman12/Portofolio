@@ -1,0 +1,248 @@
+@media(max-width: 500px) {
+    
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(212, 207, 198);
+        width: 100%;
+    }
+     /* Nav bar */
+    i {
+        font-size: 26px;
+        color: rgb(241, 241, 250);
+    }
+    
+    #navbar {
+        display: flex;
+        border: 1px solid black;
+        height: 40px;
+        justify-content: flex-end;
+        background-color: rgb(6, 6, 48);
+        border-radius: 10px;
+        position: sticky;
+        top: 0;
+    }
+    
+    
+    
+    a {
+        text-decoration: none;
+        
+    }
+    
+    #navbar ul li {
+        list-style: none;
+        display: inline-block;
+          
+    } 
+    
+    #navbar ul {
+        list-style: none;
+       
+        padding-right: 110px;
+        
+    }
+    
+    #navbar ul li a {
+        display: block;
+        margin: 6px;
+    }
+    
+    
+    
+    /* About */
+    
+    #about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 5px;
+        background-image: url(Images/wp4470729.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #about h2 {
+        color: rgb(255, 255, 225);
+        position: relative;
+        animation: heading;
+        animation-duration: 2s;
+       
+    }
+    
+    @keyframes heading {
+        0% {left: -900px}
+        100% {left: 0px}
+    }
+    
+    .presentation {
+        margin-top: 40px;
+        text-align: left
+    
+    }
+    
+    .myphoto {
+        opacity: 92%;
+        border-radius: 50%;
+        margin-top: 20px;
+        width: 70%;
+        height: 70%;
+    
+        position: relative;
+        
+        animation: photo;
+        animation-duration: 2s;
+    }
+    
+    @keyframes photo {
+        0% {right: -400px}
+        100% {right: 0px}
+    }
+    
+    
+    .social {
+        margin-top: 20px;
+    }
+    
+    .social i {
+        color: rgb(231, 231, 87);
+        font-size: 28px;
+        padding: 12px;
+        opacity: 92%;
+    }
+    
+    .social i:hover {
+        width: 50px;
+        height: 50px;
+    }
+    
+     
+    /* my projects */
+    
+    #myprojects {
+        height: 600px;
+        margin-top: 5px;
+        background-color: rgb(175, 226, 123);
+        border-radius: 10px;
+        background-image: url(Images/wp4470729.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #myprojects h2 {
+        text-align: center;
+        padding-top: 40px;
+        color: rgb(243, 243, 199);
+        animation: heading;
+        animation-duration: 2s;
+    
+    }
+    
+    /* contact */
+    
+    
+    #contact {
+        display: flex;
+        height: 580px;
+        margin-top: 5px;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(175, 226, 123);
+        border-radius: 10px;
+        background-image: url(Images/wp4470729.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #contact h3 {
+        text-align: center;
+        margin-top: 30px;
+        color: rgb(241, 241, 209);
+    }
+    
+    .name {
+        border: 3px solid black;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+        color: rgb(27, 27, 25);
+    
+    }
+    
+    .name i {
+        color: rgb(50, 103, 218);
+        font-size: 40px;
+    
+    }
+    
+    input, #msg {
+        border-radius: 5px;
+        width: 100%;
+        padding: 6px 14px;
+        margin-top: 8px;
+        background-color: rgb(231, 231, 87);
+    }
+    
+    label {
+        padding-bottom: 10px;
+        border-color: rgb(128, 128, 231);
+        padding-left: 8px;
+        text-decoration: overline;
+        color: rgb(249, 255, 218);
+        font-size: 18px;
+      
+    }
+    
+    .submit {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+        color: wheat;
+        color: rgb(233, 157, 17);
+    }
+    
+    button {
+        padding: 8px;
+       
+        border-radius: 5px;
+        background-color: rgb(50, 103, 218);
+        color: rgb(233, 157, 17);
+    }
+    
+    button:hover {
+        background-color: rgb(233, 157, 17);
+        color: black;
+        cursor: pointer;
+    }
+    
+    
+    
+    .submit, i:hover {
+      color: rgb(233, 157, 17);
+      
+    }
+    
+    /* footer  */
+    
+    
+    #main-footer {
+        text-align: center;
+        background-color: rgb(6, 6, 48);
+        color: rgb(255, 251, 251);
+        padding: 20px;
+        margin-top: 5px;
+        border-radius: 5px;
+     }
+    
+
+  }
+   
