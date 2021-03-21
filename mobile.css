@@ -94,10 +94,10 @@
        
     #about h2 {
         color: rgb(255, 255, 255);
-        position: relative;
+        /* position: relative; */
         animation: heading;
-        animation-duration: 2s;  
-        text-align: left; 
+        /* animation-duration: 2s;   */
+        text-align: center; 
         margin: auto;
     }
     
@@ -116,8 +116,8 @@
         text-align: center;
         width: 70%;
         height: 70%;    
-        position: relative;
-        animation: photo;
+        /* position: relative; */
+        /* animation: photo; */
         animation-duration: 2s;
         margin-top: 1rem;
     }
