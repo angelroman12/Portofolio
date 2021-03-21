@@ -160,13 +160,17 @@ a {
 }
 #projects {
     display: flex;
-    width: 1200px;
+    width: 1000px;
     flex-direction: row;
     flex-wrap: wrap;
     margin: auto;
     margin-bottom: 3px;   
-    justify-content: space-evenly;    
+    justify-content: space-evenly; 
+    margin-top: 2rem;
+       
 }
+
+
 #projects h3 {
     text-align: center;
     color: aliceblue;
@@ -235,14 +239,15 @@ a {
 
 input, #msg {
     border-radius: 5px;
-    width: 100%; 
-    
-    background-color: rgb(231, 231, 87);
-    padding: 0.4rem 8rem;
-    resize: none;
-   
+    width: 30rem; 
+    height: 2rem;
+    background-color: rgb(231, 231, 87);    
+    resize: none;  
+    padding-left: 0.5rem; 
 }
-
+#msg {
+    height: 6rem;
+}
 label {
     padding-bottom: 10px;
     border-color: rgb(128, 128, 231);

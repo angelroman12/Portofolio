@@ -84,8 +84,7 @@
         padding: 1rem;
         border-radius: 5px;
         opacity: 100%;
-        margin-bottom: 1rem;
-       
+        margin-bottom: 3rem;       
     }
     
     .information, h3 {
@@ -101,11 +100,6 @@
         margin: auto;
     }
     
-    @keyframes heading {
-        0% {left: -2000px}
-        100% {left: 0px}
-    }
-    
     .presentation {
         margin-top: 40px;
         text-align: center;
@@ -119,15 +113,8 @@
         /* position: relative; */
         /* animation: photo; */
         animation-duration: 2s;
-        margin-top: 1rem;
-    }
-    
-    @keyframes photo {
-        0% {right: -1300px}
-        100% {right: 0px}
-    }
-    
-    
+        margin-top: 2rem;
+    }  
     .social {
         margin-top: 20px;
     }
@@ -138,38 +125,32 @@
         padding: 12px;        
         transition-duration: 200ms;
     }
-    
-    
+       
     .social i:hover {
         color: blue;
     }
-    
-     
+         
     /* my projects */
     
     #myprojects {
         height: auto;   
-        border-radius: 4px;        
         background-image: url(Images/wp4470729.jpg);
         background-size: cover;
         background-repeat: no-repeat;    
-        width: 500px;
-        margin-top: 3px;
-        height: auto;
-        margin: auto;
+        width: 500px;        
+        height: auto;       
     }
     #projects {
         display: flex;
-        width: auto;
-        flex-direction: column;
-        flex-wrap: wrap;       
-        text-align: center;
-        justify-content: space-between;    
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 498px;
+        justify-content: center;
     }
     #projects h3 {
         text-align: center;
         color: aliceblue;
-        font-size: 1.4rem;
+        font-size: 0.8rem;
         margin-top: 1rem;
     }
 
@@ -177,15 +158,15 @@
         text-align: center;
         padding-top: 40px;
         color: rgb(243, 243, 199);
-        animation: heading;
+        /* animation: heading;
         animation-duration: 2s;
-        opacity: 92%;
-        font-size: 1.7rem;
+        opacity: 92%; */
+        font-size: 1.4rem;
     }
         
     #myprojects img {
-        height: 180px;
-        width: 280px;
+        height: 150px;
+        width: 240px;
         padding: 1rem;
         transition-duration: 500ms;
     }
@@ -215,6 +196,8 @@
         padding-top: 20px;
         color: rgb(241, 241, 209);
         opacity: 92%;
+        font-size: 1.4rem;
+        margin-bottom: 1rem;
     }
     
     .name {
