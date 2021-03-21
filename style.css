@@ -57,7 +57,7 @@ a {
 /* =========== */
 
 #about {
-    width: 1340px;
+    width: 1480px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -147,22 +147,22 @@ a {
 /* my projects */
 
 #myprojects {
-    height: 120vh;   
+    height: auto;   
     border-radius: 4px;
     margin: auto;
     background-image: url(Images/wp4470729.jpg);
     background-size: cover;
     background-repeat: no-repeat;    
-    width: 1340px;
+    width: 1480px;
     margin-top: 5px;
 }
 #projects {
     display: flex;
-    width: auto;
+    width: 1200px;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: auto;   
-    margin: 2rem; 
+    margin: auto;
+    margin-bottom: 3px;   
     justify-content: space-evenly;    
 }
 #projects h3 {
@@ -191,24 +191,24 @@ a {
 }
 /* contact */
 
-
 #contact {
     display: flex;
-    height: 100vh;    
+    height: auto;    
     flex-direction: column;
     align-items: center;
     background-color: rgb(175, 226, 123);
-    border-radius: 10px;
+    border-radius: px;
     background-image: url(Images/wp4470729.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin: auto;
-    margin-top: 5px;
+    width: 1480px;
+    margin-top: 3px;
 }
 
 #contact h3 {
     text-align: center;
-    margin-top: 30px;
+   
     padding-top: 20px;
     color: rgb(241, 241, 209);
     opacity: 92%;
@@ -217,7 +217,7 @@ a {
 .name {
     border: 3px solid black;
     padding: 20px;
-    margin-top: 20px;
+   
     border-radius: 5px;
     color: rgb(27, 27, 25);
 
@@ -232,7 +232,7 @@ a {
 input, #msg {
     border-radius: 5px;
     width: 100%; 
-    margin-top: 8px;
+    
     background-color: rgb(231, 231, 87);
     padding: 0.4rem 8rem;
     resize: none;
@@ -274,8 +274,7 @@ button:hover {
 
 
 .submit, i:hover {
-  color: rgb(233, 157, 17);
-  
+  color: rgb(233, 157, 17);  
 }
 
 /* footer  */
