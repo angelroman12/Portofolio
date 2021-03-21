@@ -114,6 +114,7 @@
         /* animation: photo; */
         animation-duration: 2s;
         margin-top: 2rem;
+        margin: auto;
     }  
     .social {
         margin-top: 20px;
