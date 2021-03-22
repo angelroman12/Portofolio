@@ -7,6 +7,7 @@
     <meta name="keywords" content="Angel Roman frontend developer serpente">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="fullscreen.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <title>Angel Roman </title>
 </head>
@@ -70,36 +71,31 @@
   </div>
 <!-- Contact -->
 
-<div id="contact">
-    <h3> Contact Me </h3>
-    <form name="contact" method="POST" data-netlify="true">  
-            <div class="tel">              
-              <i class="fas fa-phone-square-alt"></i> <p> 0040771200735</p> 
-            </div>
-            <div class="tel">
-              <i class="fas fa-envelope"></i> <p> romanangel120@gmail.com </p>
-            </div>
-           <label for="name">Name</label> <br> 
-           <input type="text" id="name" ><br><br>
-       
-            <label for="email">Email</label> <br>
-            <input type="email" id="email" ><br><br>
-       
-            <label for=" Subject"> Subject </label> <br>
-            <input type="Subject" id="subject" > <br><br>
-  
-            <label for="msg">Message</label><br> 
-            <textarea name="" id="msg" cols="28" rows="4"></textarea>
-  
-      <div class="submit">      
-          <button type="submit">Submit</button>
-      </div> 
-    </form>      
-</div>
+<form name="contact" method="POST" netlify >
+  <div id="contact">
+     <h3>Contact me</h3>
+     <div class="tel">              
+       <i class="fas fa-phone-square-alt"></i> <p> 0040771200735</p> 
+     </div>
+     <div class="tel">
+       <i class="fas fa-envelope"></i> <p> romanangel120@gmail.com </p>
+     </div>
 
+     <label for="name"> Name </label>
+     <input type="text" id="name" ><br>
+
+     <label for="email"> Email</label>
+     <input type="text" id="email"> <br>
+     <label for="mesage">Mesage</label>
+     <textarea name="mesage" id="msg" cols="30" rows="10"  ></textarea> <br>
+     <input type="submit" value="submit" class="submit">
+  </div>
+  
+</form>
 <!-- Footer -->
   <footer id="main-footer">
     <p>Front End Developer Angel Roman &copy; 2021 All Rights Reserved</p>
   </footer>
+  <script src="app.js"></script>
 </body>
 </html>
