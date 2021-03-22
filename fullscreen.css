@@ -246,41 +246,25 @@
     }
     
 label { 
-    color: rgb(0, 0, 0);
+    color: rgb(255, 251, 251);
     font-size: 18px;
-    background-color: rgb(162, 196, 40);    
+    background-color: royalblue;  
     padding: 0.2rem 1rem;  
 }
 
     
-    .submit {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 20px;
-        color: wheat;
-        color: rgb(233, 157, 17);
-    }
-    
-    button {
-        padding: 0.4rem 2rem;   
-        border-radius: 5px;
-        background-color: rgb(50, 103, 218);
-        color: rgb(255, 253, 248);
-        transition-duration: 400ms;
-        font-size: 1rem;
-    }
-    
-    button:hover {
-        background-color: rgb(233, 157, 17);
-        color: black;
-        cursor: pointer;
-    }
-    
-    
-    
-    .submit, i:hover {
-      color: rgb(233, 157, 17);  
-    }
+.submit {
+    font-size: 1rem;
+    background-color: royalblue;
+    color: seashell;
+    transition-duration: 400ms;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: seashell;
+    color: royalblue;
+}
     
     /* footer  */
     

@@ -232,24 +232,18 @@ a {
     margin-bottom: 1rem;
     margin-top: 1.2rem;
     border-radius: 4px;
+    width: 26rem;
 }
 
 .tel i {
     font-size: 1.8rem;
+    color: rgb(5, 26, 92);   
 }
 .name {
     border: 3px solid black;
-    padding: 20px;
-   
+    padding: 20px;   
     border-radius: 5px;
     color: rgb(27, 27, 25);
-
-}
-
-.name i {
-    color: rgb(50, 103, 218);
-    font-size: 40px;
-
 }
 
 input, #msg {
@@ -266,11 +260,25 @@ input, #msg {
 }
 
 label { 
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 18px;
-    background-color: rgb(162, 196, 40);    
+    background-color: royalblue;    
     padding: 0.2rem 1rem;  
-    
+    border-radius: 4px;
+    margin-bottom: 0.2rem;
+}
+
+.submit {
+    font-size: 1rem;
+    background-color: royalblue;
+    color: seashell;
+    transition-duration: 400ms;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: seashell;
+    color: royalblue;
 }
 
 /* footer  */
