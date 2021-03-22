@@ -44,7 +44,7 @@ a {
 #navbar ul li a {
     display: block;
     margin: 6px;
-    color: rgb(228, 15, 15);
+    color: rgb(255, 255, 255);
     transition-duration: 500ms;
 }
 
@@ -211,6 +211,7 @@ a {
     margin-top: 3px;
     margin-bottom: 3px;
     padding-bottom: 2rem;
+    border-radius: 4px;
 }
 
 #contact h3 {
@@ -220,7 +221,22 @@ a {
     color: rgb(241, 241, 209);
     opacity: 92%;
 }
+.tel {
+    background-color: rgb(231, 231, 87);
+    text-align: center;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.6rem;
+    margin-bottom: 1rem;
+    margin-top: 1.2rem;
+    border-radius: 4px;
+}
 
+.tel i {
+    font-size: 1.8rem;
+}
 .name {
     border: 3px solid black;
     padding: 20px;
@@ -290,7 +306,7 @@ button:hover {
 
 #main-footer {
     text-align: center;
-    background-color: rgb(6, 6, 48);
+    background-color: rgb(77, 77, 77);
     color: rgb(255, 251, 251);
     padding: 20px;
     margin-top: 3px;

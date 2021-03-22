@@ -30,17 +30,11 @@
         text-decoration: none;    
     }
     
-    #navbar ul li {
-        list-style: none;        
-    } 
-    
-    #navbar ul {
-        list-style: none;       
-    }
+   
     
     #navbar ul li a {
-        display: block;       
-        color: rgb(228, 15, 15);
+        display: inline;       
+        color: rgb(255, 255, 255);
         transition-duration: 500ms;
         font-size: 1rem;
         margin-left: 1rem;
@@ -84,7 +78,8 @@
         padding: 1rem;
         border-radius: 5px;
         opacity: 100%;
-        margin-bottom: 3rem;       
+        margin-bottom: 2rem;       
+        margin-top: 1rem;       
     }
     
     .information, h3 {
@@ -92,10 +87,8 @@
     }
        
     #about h2 {
-        color: rgb(255, 255, 255);
-        /* position: relative; */
-        animation: heading;
-        /* animation-duration: 2s;   */
+        color: rgb(255, 255, 255);        
+        animation: heading;       
         text-align: center; 
         margin: auto;
     }
@@ -109,12 +102,9 @@
         border-radius: 50%;
         text-align: center;
         width: 70%;
-        height: 70%;    
-        /* position: relative; */
-        /* animation: photo; */
-        animation-duration: 2s;
-        margin-top: 2rem;
+        height: 70%;  
         margin: auto;
+        margin-top: 1rem;
     }  
     .social {
         margin-top: 20px;
@@ -224,7 +214,20 @@
         resize: none;
        margin: auto;
     }
-    
+    .tel {
+        background-color: rgb(231, 231, 87);
+        text-align: center;
+        font-size: 1.3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.4rem;
+        margin-bottom: 1.4rem;
+    }
+
+    .tel i {
+        font-size: 1.8rem;
+    }
     label {
         padding-bottom: 10px;
         border-color: rgb(128, 128, 231);
@@ -269,7 +272,7 @@
     
     #main-footer {
         text-align: center;
-        background-color: rgb(6, 6, 48);
+        background-color: rgb(77, 77, 77);
         color: rgb(255, 251, 251);
         padding: 20px;
         margin-top: 3px;
