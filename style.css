@@ -246,7 +246,7 @@ a {
     color: rgb(27, 27, 25);
 }
 
-input, #msg {
+input, #msg, #email {
     border-radius: 5px;
     width: 26rem; 
     height: 2rem;

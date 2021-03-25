@@ -235,12 +235,12 @@
     .tel i {
         font-size: 1.8rem;
     }
-    input, #msg {
+    input, #msg, #email {
         border-radius: 5px;
         width: 26rem; 
         
         background-color: rgb(231, 231, 87);
-        padding: 0.4rem 8rem;
+        padding: 0.4rem 1rem;
         resize: none;
        
     }

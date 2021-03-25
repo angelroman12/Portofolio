@@ -205,12 +205,12 @@
         font-size: 40px;    
     }
     
-    input, #msg {
+    input, #msg, #email {
         border-radius: 5px;
         width: 20rem; 
         margin-top: 8px;
         background-color: rgb(231, 231, 87);
-        padding: 0.4rem 2rem;
+        padding: 0.4rem 1rem;
         resize: none;
        margin: auto;
     }
