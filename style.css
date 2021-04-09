@@ -256,6 +256,7 @@ input, #msg, #email {
     padding-left: 0.5rem; 
     color: #f05454;
     border: none;
+    padding: 0.5rem;
 }
 
 #msg {
