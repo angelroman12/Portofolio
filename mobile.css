@@ -1,12 +1,11 @@
 @media(max-width: 500px) {
-    
     * {
         box-sizing: border-box;
         margin: 0px;
         padding: 0px;
     }
     body {
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         background-color: rgb(255, 255, 255);    
     }
      /* Nav bar */
@@ -24,7 +23,10 @@
     a {
         text-decoration: none;    
     }
-    
+    #navbar i {
+        font-size: 2rem;
+        margin: auto;
+    }
     #navbar ul li {
         list-style: none;
         display: inline-block;
@@ -39,14 +41,15 @@
     }
     
     #navbar ul li a {
-        display: block;    
         color: rgb(255, 255, 255);
         transition-duration: 500ms;
     }
-    
-    /* =========== */
+    .mobile {
+       display: none;
+    }
+    /* ============ ========== */
         /* About */
-    /* =========== */
+    /* ============= ========= */
     
     #about {
         width: 500px;
@@ -59,7 +62,7 @@
         color: #dddddd;
         background-color: #222831;
         margin: auto;
-        margin-top: 2px;
+        margin-top: 3px;
         height: auto;
         padding-bottom: 2rem;
     }
@@ -76,17 +79,15 @@
         border-radius: 5px;
         box-shadow: 6px 6px 8px 1px #2b7af1;       
     }
-    
-    
-.information, h3 {
+    .information, h3 {
     font-size: 1.6rem;
     text-align: left;
-}
-       
-#about h2 {
+    }
+
+    #about h2 {
     color: #dddddd;
     text-align: center;
-}
+    }
     
     .presentation {
         margin-top: 40px;
@@ -147,7 +148,7 @@
         text-align: center;
     }
     #javascript {
-        width: 500px;
+        width: 480px;
         margin: auto;
         display: flex;
         flex-direction: row;
@@ -155,15 +156,9 @@
         text-align: center;
         color: #dddddd;
         justify-content: space-between;
-    }
-        
-   
-    #myprojects img:hover {
-        padding: 0.6rem;
+        padding: 1rem;
     }
     /* contact */
-    
-    
     #contact {
         display: flex;
         height: auto;    
@@ -237,14 +232,7 @@
         transition-duration: 400ms;
         cursor: pointer;
     }
-    
-    .submit:hover {
-        background-color: seashell;
-        color: royalblue;
-    }
-    
     /* footer  */
-    
     
     #main-footer {
         text-align: center;
@@ -252,12 +240,8 @@
         color: rgb(255, 251, 251);
         padding: 20px;
         margin-top: 3px;
-        border-radius: 5px;
+        border-radius: 4px;
         width: 500px;
-     }
-    
-     
-   
-
+    }
 }
    
