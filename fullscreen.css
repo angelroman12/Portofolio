@@ -114,8 +114,17 @@
         0% {right: -1300px}
         100% {right: 0px}
     }
+    .fa-briefcase:hover {
+        color: #f05454;
+    }
+    .fa-facebook-square:hover {
+        color: #0073b1;
+    }
     
-    
+
+    .fa-instagram-square:hover {
+        color: #f57841;
+    }
     .social {
         margin-top: 20px;
     }
@@ -127,9 +136,7 @@
         transition-duration: 200ms;
     }
     
-    .social i:hover {
-        color: rgb(21, 21, 223);
-    } 
+    
      
    /*=======================================
             my projects 
@@ -254,7 +261,7 @@ input, #msg, #email {
     background-color: rgb(243, 243, 92);    
     resize: none;  
     padding-left: 0.5rem; 
-    color: #f05454;
+    color: #000000;
     border: none;
 }
 
