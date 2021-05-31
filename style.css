@@ -13,7 +13,7 @@ body {
     display: flex;    
     justify-content: center;
     align-items: stretch;
-    background-color: #30475e;
+    background-color: #000080;
     position: sticky;
     top: 0;
     padding: 1.5rem;
@@ -67,8 +67,8 @@ a {
     justify-content: space-evenly;
     align-items: center;
     border-radius: 4px;
-    color: #dddddd;
-    background-color: #222831;
+    color: #ffb606;
+    background-color: #dbdbdb;
     margin: auto;
     margin-top: 2px;
 }
@@ -79,11 +79,12 @@ a {
 .information {
     width: 620px;
     height: auto;
-    color: #dddddd;
+    color: #ffb606;
     text-align: left;
     padding: 1rem;
     border-radius: 5px;
     box-shadow: 0px 1px 5px 2px #2b7af1;
+    background-color: #221c1c;
 }
 
 .information, h3 {
@@ -100,7 +101,7 @@ a {
     border-radius: 50px;
 }
 #about h2 {
-    color: #dddddd;
+    color: #221c1c;
     text-align: center;
 }
 
@@ -111,9 +112,11 @@ a {
 .myphoto {
     border-radius: 50%;
     margin: 50px 70px;
-    box-shadow: 3px 8px 10px 0px #2b7af1;
+   
 }
-
+.myphoto img {
+ box-shadow: 0px 6px 6px 2px  #ffb606;;
+}
 @keyframes photo {
     0% {right: -1300px}
     100% {right: 0px}
@@ -134,7 +137,7 @@ a {
 }
 
 .social i {
-    color: #dddddd;
+    color: #ffb606;
     font-size: 28px;
     padding: 12px;
     transition-duration: 200ms;
@@ -150,7 +153,7 @@ a {
     border-radius: 4px;
     margin: auto;
     margin-top: 2px;
-    background-color: #222831;
+    background-color: #dbdbdb;
     color: #f05454;
     display: flex;
     flex-direction: column;
@@ -170,6 +173,7 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: center;
+    color: #000080;
 }
 /* ==================================
             React Apps  
@@ -179,21 +183,22 @@ a {
     text-align: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    color: #000080;
 }
 
 .cub {
     padding-top: 0.6rem;
-    background-color: #30475e;
+    background-color: #f5f5f8;
     border-radius: 6px;
-    box-shadow: 0px 0px 2px 1px #ffffff;
+    box-shadow: 0px 0px 6px 4px #ffb606;
     margin-bottom: 1rem;
-   
+    color: #000080;
 }
 .recipe h4 {
     /* margin-top: 0.6rem; */
     text-align: center;
     font-size: 1.2rem;
-    color: #dddddd;
+    color: #000080;
 }
 /* =======================================
         JavaScript Apps
@@ -217,8 +222,8 @@ a {
     height: auto;    
     flex-direction: column;
     align-items: center;
-    background-color: #222831;
-    color: #f05454;    
+    background-color: #dbdbdb;
+    color: #000080;    
     margin: auto;
     min-width: 90vw;
     margin-top: 3px;
