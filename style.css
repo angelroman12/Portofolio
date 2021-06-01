@@ -222,6 +222,7 @@ main {
 
 #javaScript img {
     width: 22rem;
+   
 }
 /* =============================    Contact ==================== */
 #contactMe {
@@ -267,13 +268,14 @@ input[type="submit"] {
 .tel {
     display: flex;
     justify-content: space-between;
-    height: 1.6rem;
+    height: 1.8rem;
     margin: 0.3rem;
-    padding: 0.6rem;
+    padding: 0.8rem;
     font-size: 1.2rem;
     align-items: center;
     background-color: #ffb606;
     border-radius: 6px;
+    border: 2px solid #000080;
 }
 .svg {
     margin-left: 5rem;
