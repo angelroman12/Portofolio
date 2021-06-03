@@ -88,10 +88,19 @@ main {
     height: auto;
     position: absolute;
     top: 4rem;
-    left: 17rem;
+    left: 20%;
     padding: 2rem;
 }
-
+/* @media (min-width: 2000px) {
+    #content {
+        background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+        height: auto;
+        position: absolute;
+        top: 4rem;
+        left: 17rem;
+        padding: 2rem;
+    }
+} */
 /* ============================= About ==================== */
 #information {
     font-size: 2rem;
